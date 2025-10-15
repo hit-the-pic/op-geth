@@ -1,8 +1,6 @@
 module github.com/hit-the-pic/op-geth
 
-go 1.21
-
-toolchain go1.21.6
+go 1.25.1
 
 require (
 	github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v1.2.0
