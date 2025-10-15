@@ -3,10 +3,10 @@ package misc
 import (
 	"github.com/ethereum-optimism/superchain-registry/superchain"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/hit-the-pic/op-geth/common"
+	"github.com/hit-the-pic/op-geth/core/vm"
+	"github.com/hit-the-pic/op-geth/log"
+	"github.com/hit-the-pic/op-geth/params"
 )
 
 // The original create2deployer contract could not be deployed to Base mainnet at

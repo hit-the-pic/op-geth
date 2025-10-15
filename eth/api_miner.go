@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/hit-the-pic/op-geth/common"
+	"github.com/hit-the-pic/op-geth/common/hexutil"
 )
 
 // MinerAPI provides an API to control the miner.

@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/hit-the-pic/op-geth/common"
+	"github.com/hit-the-pic/op-geth/console/prompt"
+	"github.com/hit-the-pic/op-geth/core"
+	"github.com/hit-the-pic/op-geth/eth"
+	"github.com/hit-the-pic/op-geth/eth/ethconfig"
+	"github.com/hit-the-pic/op-geth/internal/jsre"
+	"github.com/hit-the-pic/op-geth/miner"
+	"github.com/hit-the-pic/op-geth/node"
 )
 
 const (

@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/hit-the-pic/op-geth/common"
+	"github.com/hit-the-pic/op-geth/core/state"
+	"github.com/hit-the-pic/op-geth/core/vm"
+	"github.com/hit-the-pic/op-geth/eth/tracers"
+	"github.com/hit-the-pic/op-geth/params"
 )
 
 type account struct{}

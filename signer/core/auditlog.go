@@ -21,11 +21,11 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
+	"github.com/hit-the-pic/op-geth/common"
+	"github.com/hit-the-pic/op-geth/common/hexutil"
+	"github.com/hit-the-pic/op-geth/internal/ethapi"
+	"github.com/hit-the-pic/op-geth/log"
+	"github.com/hit-the-pic/op-geth/signer/core/apitypes"
 	"golang.org/x/exp/slog"
 )
 

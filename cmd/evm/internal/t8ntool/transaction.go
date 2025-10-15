@@ -24,13 +24,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/hit-the-pic/op-geth/common"
+	"github.com/hit-the-pic/op-geth/common/hexutil"
+	"github.com/hit-the-pic/op-geth/core"
+	"github.com/hit-the-pic/op-geth/core/types"
+	"github.com/hit-the-pic/op-geth/params"
+	"github.com/hit-the-pic/op-geth/rlp"
+	"github.com/hit-the-pic/op-geth/tests"
 	"github.com/urfave/cli/v2"
 )
 

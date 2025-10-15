@@ -21,16 +21,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/hit-the-pic/op-geth/common"
+	"github.com/hit-the-pic/op-geth/core"
+	"github.com/hit-the-pic/op-geth/core/types"
+	"github.com/hit-the-pic/op-geth/log"
+	"github.com/hit-the-pic/op-geth/metrics"
+	"github.com/hit-the-pic/op-geth/p2p"
+	"github.com/hit-the-pic/op-geth/p2p/enode"
+	"github.com/hit-the-pic/op-geth/p2p/enr"
+	"github.com/hit-the-pic/op-geth/trie"
+	"github.com/hit-the-pic/op-geth/trie/trienode"
 )
 
 const (

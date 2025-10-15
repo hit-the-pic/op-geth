@@ -6,15 +6,15 @@
 
 GOBIN = ./build/bin
 GO ?= latest
-GORUN = go run
+GORUN = go run 
 
 geth:
-	$(GORUN) build/ci.go install ./cmd/geth
+	$(GORUN) build/ci.go install ./cmd/geth 
 	@echo "Done building."
 	@echo "Run \"$(GOBIN)/geth\" to launch geth."
 
 all:
-	$(GORUN) build/ci.go install
+	$(GORUN) build/ci.go install 
 
 test: all
 	$(GORUN) build/ci.go test

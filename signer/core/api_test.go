@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/hit-the-pic/op-geth/accounts"
+	"github.com/hit-the-pic/op-geth/accounts/keystore"
+	"github.com/hit-the-pic/op-geth/common"
+	"github.com/hit-the-pic/op-geth/common/hexutil"
+	"github.com/hit-the-pic/op-geth/core/types"
+	"github.com/hit-the-pic/op-geth/internal/ethapi"
+	"github.com/hit-the-pic/op-geth/rlp"
+	"github.com/hit-the-pic/op-geth/signer/core"
+	"github.com/hit-the-pic/op-geth/signer/core/apitypes"
+	"github.com/hit-the-pic/op-geth/signer/fourbyte"
+	"github.com/hit-the-pic/op-geth/signer/storage"
 )
 
 // Used for testing

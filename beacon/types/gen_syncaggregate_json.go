@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/hit-the-pic/op-geth/common/hexutil"
 )
 
 var _ = (*syncAggregateMarshaling)(nil)
